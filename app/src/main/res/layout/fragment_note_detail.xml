@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".screen.NoteDetailFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:paddingHorizontal="18sp"
+        android:background="@color/primary_color">
+
+        <ImageView
+            android:id="@+id/image_button_note_detail_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/ic_arrow_back"
+            tools:ignore="ContentDescription" />
+
+        <EditText
+            android:id="@+id/et_note_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/image_button_note_detail_check"
+            android:layout_toEndOf="@id/image_button_note_detail_back"
+            android:autofillHints="no"
+            android:background="@color/primary_color"
+            android:hint="@string/title"
+            android:imeOptions="actionDone"
+            android:textColorHint="@color/light_dark"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/image_button_note_detail_check"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/ic_check"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_note_detail_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:autofillHints="no"
+        android:background="@color/light_dark"
+        android:clipToPadding="false"
+        android:gravity="start"
+        android:hint="@string/emaple_text"
+        android:inputType="textMultiLine"
+        android:padding="16dp"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

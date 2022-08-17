@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Notes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_main_my_notes">My notes</string>
+    <string name="fragment_main_search">Search</string>
+    <string name="fragment_main_add_new_note">Add new note</string>
+    <string name="fragment_main_notes_not_found">Notes not found</string>
+    <string name="emaple_text">Insert note text here...</string>
+    <string name="title">Title</string>
+    <string name="title_is_empty">Title must not be empty</string>
+    <string name="delete_note">Delete note</string>
+</resources>
